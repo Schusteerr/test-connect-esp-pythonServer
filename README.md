@@ -1,7 +1,7 @@
 # Teste de Comunicanção ESP -> ServerPython
 Mais que um achado! Quando estava desenvolvendo o projeto [Horta Automatizada](https://github.com/Schusteerr/Horta-Automatizada), estava elaborando meios de comunicar um ESP com minha máquina de alguma maneira, sendo um dos meus primeiros teste esse, comunicar com um server hospedado em python para receber mensagens expecificas.
 
-Se não me engano tinha funcionado bem para seu propósito inicial, enviar e receber informações, mas acabou ficando deixado.
+Se não me engano, tinha funcionado muito bem para seu propósito inicial, enviar e receber informações, mas acabou ficando de lado.
 
 <br>
 
