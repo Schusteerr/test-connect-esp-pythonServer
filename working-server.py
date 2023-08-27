@@ -7,12 +7,12 @@ def main():
          
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    server_socket.bind(("IP", PORT))
+    server_socket.bind(("IP HERE", PORT))
     server_socket.listen(10)
  
     CONNECTION_LIST.append(server_socket)
  
-    print("Conecção na porta: " + str(PORT))
+    print("Conxão na porta: " + str(PORT))
  
     while 1:
         read_sockets,write_sockets,error_sockets = select.select(CONNECTION_LIST,[],[])
